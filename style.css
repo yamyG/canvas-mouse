@@ -1,0 +1,45 @@
+
+body {
+  font-family: 'Century Gothic';
+}
+h1 {color: #212F3C; }
+hr {opacity: 0.5;}
+
+.box {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: down;
+  position: static;
+  cursor: pointer;
+}
+.cafe {background-color: #BA4A00;}
+.azul {background-color: #3498DB;}
+.verde {background-color: #229954;}
+.rojo {background-color: #E74C3C;}
+.amarisho{background-color: #F1C40F;}
+
+canvas {
+   border: 1px solid #ccc;
+   margin: 100px;
+}
+
+#area_dibujo {
+  border: 1px solid #ccc;
+  margin-top: -311px;
+}
+
+
+span {
+  margin-left: -385px;
+  position: absolute;
+}
+
+#btn {
+  padding: 5px;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: #F2D7D5;
+}
